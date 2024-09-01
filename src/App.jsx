@@ -1,11 +1,11 @@
-import './App.css'
+import GameBox from './components/GameBox'
 
-function App() {
+export default function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <main className='bg-gray-950 max-h-screen h-screen flex justify-center items-center'>
+      <div className='text-white'>
+        <GameBox />
+      </div>
+    </main>
   )
 }
-
-export default App
